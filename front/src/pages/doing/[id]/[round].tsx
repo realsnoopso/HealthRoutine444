@@ -26,7 +26,7 @@ const Doing: NextPage = () => {
 
   useEffect(() => {
     (async () => {
-      // TODO: query에 id, round 없을 때 예외처리 해야함. ddddd
+      // TODO: query에 id, round 없을 때 예외처리 해야함. ddddddddd
       const id = Number(router.query.id);
       const round = Number(router.query.round); // 어라라? DB꺼 안쓰고?
 
